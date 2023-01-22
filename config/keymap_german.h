@@ -105,28 +105,28 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-// #define DE_DEG  S(DE_CIRC) // °
-// #define DE_EXLM S(DE_1)    // !
-// #define DE_DQUO S(DE_2)    // "
-// #define DE_SECT S(DE_3)    // §
-// #define DE_DLR  S(DE_4)    // $
-// #define DE_PERC S(DE_5)    // %
-// #define DE_AMPR S(DE_6)    // &
-// #define DE_SLSH S(DE_7)    // /
-// #define DE_LPRN S(DE_8)    // (
-// #define DE_RPRN S(DE_9)    // )
-// #define DE_EQL  S(DE_0)    // =
-// #define DE_QUES S(DE_SS)   // ?
-// #define DE_GRV  S(DE_ACUT) // ` (dead)
+#define DE_DEG  LS(DE_CIRC) // °
+#define DE_EXLM LS(DE_1)    // !
+#define DE_DQUO LS(DE_2)    // "
+#define DE_SECT LS(DE_3)    // §
+#define DE_DLR  LS(DE_4)    // $
+#define DE_PERC LS(DE_5)    // %
+#define DE_AMPR LS(DE_6)    // &
+#define DE_SLSH LS(DE_7)    // /
+#define DE_LPRN LS(DE_8)    // (
+#define DE_RPRN LS(DE_9)    // )
+#define DE_EQL  LS(DE_0)    // =
+#define DE_QUES LS(DE_SS)   // ?
+#define DE_GRV  LS(DE_ACUT) // ` (dead)
 // Row 2
-// #define DE_ASTR S(DE_PLUS) // *
+#define DE_ASTR LS(DE_PLUS) // *
 // Row 3
-// #define DE_QUOT S(DE_HASH) // '
+#define DE_QUOT LS(DE_HASH) // '
 // Row 4
-// #define DE_RABK S(DE_LABK) // >
-// #define DE_SCLN S(DE_COMM) // ;
-// #define DE_COLN S(DE_DOT)  // :
-// #define DE_UNDS S(DE_MINS) // _
+#define DE_RABK LS(DE_LABK) // >
+#define DE_SCLN LS(DE_COMM) // ;
+#define DE_COLN LS(DE_DOT)  // :
+#define DE_UNDS LS(DE_MINS) // _
 
 /* AltGr symbols
  * ┌───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───────┐
@@ -142,17 +142,17 @@
  * └────┴────┴────┴────────────────────────┴────┴────┴────┴────┘
  */
 // Row 1
-// #define DE_SUP2 ALGR(DE_2)    // ²
-// #define DE_SUP3 ALGR(DE_3)    // ³
-// #define DE_LCBR ALGR(DE_7)    // {
-// #define DE_LBRC ALGR(DE_8)    // [
-// #define DE_RBRC ALGR(DE_9)    // ]
-// #define DE_RCBR ALGR(DE_0)    // }
-// #define DE_BSLS ALGR(DE_SS)   // (backslash)
+#define DE_SUP2 RA(DE_2)    // ²
+#define DE_SUP3 RA(DE_3)    // ³
+#define DE_LCBR RA(DE_7)    // {
+#define DE_LBRC RA(DE_8)    // [
+#define DE_RBRC RA(DE_9)    // ]
+#define DE_RCBR RA(DE_0)    // }
+#define DE_BSLS RA(DE_SS)   // (backslash)
 // Row 2
-// #define DE_AT   ALGR(DE_Q)    // @
-// #define DE_EURO ALGR(DE_E)    // €
-// #define DE_TILD ALGR(DE_PLUS) // ~
+#define DE_AT   RA(DE_Q)    // @
+#define DE_EURO RA(DE_E)    // €
+#define DE_TILD RA(DE_PLUS) // ~
 // Row 4
-// #define DE_PIPE ALGR(DE_LABK) // |
-// #define DE_MICR ALGR(DE_M)    // µ
+#define DE_PIPE RA(DE_LABK) // |
+#define DE_MICR RA(DE_M)    // µ
