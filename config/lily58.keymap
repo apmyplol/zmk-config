@@ -90,9 +90,9 @@ Keymap ideas:
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL &kp LALT>
+                = <&macro_press &kp LALT>
                 , <&macro_tap &kp LEFT>
-                , <&macro_release &kp LCTRL &kp LALT>
+                , <&macro_release &kp LALT>
                 ;
         };
 
@@ -101,11 +101,23 @@ Keymap ideas:
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&macro_press &kp LCTRL &kp LALT>
+                = <&macro_press &kp LALT>
                 , <&macro_tap &kp RIGHT>
+                , <&macro_release &kp LALT>
+                ;
+        };
+
+        tty_1: goto_tty_1 {
+            label = "goto_tty_1";
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LCTRL &kp LALT>
+                , <&macro_tap &kp DE_1>
                 , <&macro_release &kp LCTRL &kp LALT>
                 ;
         };
+
     };
 };
 
