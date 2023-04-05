@@ -18,7 +18,7 @@ Keymap ideas:
 
 
 &mt {
-    tapping-term-ms = <600>;
+    tapping-term-ms = <200>;
 };
 
 / {
