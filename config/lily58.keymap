@@ -81,6 +81,7 @@ Keymap ideas:
           bindings = <&kp C_BRI_UP>, <&kp C_BRI_MAX>, <&kp C_BRI_AUTO>;
       };
   };
+};
 
 / {
     macros {
