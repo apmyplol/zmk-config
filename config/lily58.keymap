@@ -84,8 +84,8 @@ Keymap ideas:
 
 / {
     macros {
-        tty_l: tty_l {
-            label = "tty_l";
+        tty_l: tty_goto_left {
+            label = "tty_goto_left";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
@@ -95,8 +95,8 @@ Keymap ideas:
                 ;
         };
 
-        tty_r: tty_r {
-            label = "tty_r";
+        tty_r: tty_goto_right {
+            label = "tty_goto_right";
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
